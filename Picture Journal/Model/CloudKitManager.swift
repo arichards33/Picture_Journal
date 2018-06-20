@@ -172,7 +172,6 @@ open class CloudKitManager {
     func registerSilentSubscriptionsWithIdentifier(_ identifier: String) {
        
         let notificationInfo = CKNotificationInfo()
-//        notificationInfo.shouldSendContentAvailable = true
         
         let subscription = CKQuerySubscription(recordType: "Entry",
                                                predicate: NSPredicate(value: true),

@@ -26,7 +26,6 @@ class EntryDetailViewController: UIViewController {
         super.viewDidLoad()
 
         dateFormatter.dateFormat = "MMMM d, yyyy"
-//        editImage.image = UIImage(data: entry.photo!)
         editDate.text = dateFormatter.string(from: entry.date!)
         editText.text = entry.text
         editTags.text = entry.tags
@@ -41,7 +40,6 @@ class EntryDetailViewController: UIViewController {
         entry.photoURL = entry.photoURL
         entry.lat = entry.lat
         entry.long = entry.long
-//        entry.photo = entry.photo
         entry.currentTemp = entry.currentTemp
         do {
             let writeable = try JSONEncoder().encode(entry)

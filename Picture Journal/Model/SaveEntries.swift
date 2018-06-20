@@ -15,12 +15,7 @@ class SaveEntries {
     var oldEntries = NSMutableArray()
     let localFile = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("pictureJournalEntry")
     
-//    func getDocumentsDirectory() -> URL {
-//        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//        let documentsDirectory = paths[0]
-//        return documentsDirectory
-//    }
-//
+
     func checkForFile() -> Bool {
         var isFile: Bool = false
         let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String

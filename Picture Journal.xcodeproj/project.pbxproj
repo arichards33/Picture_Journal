@@ -23,7 +23,6 @@
 		644DCEAB2098664B007818B5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644DCEA92098664B007818B5 /* MainInterface.storyboard */; };
 		644DCEAF2098664B007818B5 /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 644DCEA32098664B007818B5 /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		644DCEB420986B40007818B5 /* MapLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DCEB320986B40007818B5 /* MapLocationsViewController.swift */; };
-		644DCEB62098C0C8007818B5 /* MapClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DCEB52098C0C8007818B5 /* MapClusterView.swift */; };
 		646F6177208E4CF200A974A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F6176208E4CF200A974A2 /* AppDelegate.swift */; };
 		646F617C208E4CF200A974A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646F617A208E4CF200A974A2 /* Main.storyboard */; };
 		646F617E208E4CF600A974A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646F617D208E4CF600A974A2 /* Assets.xcassets */; };
@@ -111,7 +110,6 @@
 		644DCEAA2098664B007818B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		644DCEAC2098664B007818B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644DCEB320986B40007818B5 /* MapLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationsViewController.swift; sourceTree = "<group>"; };
-		644DCEB52098C0C8007818B5 /* MapClusterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapClusterView.swift; sourceTree = "<group>"; };
 		646F6173208E4CF200A974A2 /* Picture Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picture Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646F6176208E4CF200A974A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		646F617B208E4CF200A974A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 				64A6A3AB2092D2CB0094E6A9 /* CloudKitManager.swift */,
 				64A6A3B72094DFAF0094E6A9 /* SaveEntries.swift */,
 				64A6A3B52094DCA20094E6A9 /* Entry.swift */,
-				644DCEB52098C0C8007818B5 /* MapClusterView.swift */,
 				644B71152099347E001AF4EE /* Networking.swift */,
 				644B711720993612001AF4EE /* TempData.swift */,
 				64DB0852209A248A00A94906 /* MapEntries.swift */,
@@ -521,7 +518,6 @@
 				64A6A3C02097B5E30094E6A9 /* MobileNet.mlmodel in Sources */,
 				644B711820993612001AF4EE /* TempData.swift in Sources */,
 				64A6A3AE20938FF60094E6A9 /* EntryDetailViewController.swift in Sources */,
-				644DCEB62098C0C8007818B5 /* MapClusterView.swift in Sources */,
 				64A6A3B02093A6910094E6A9 /* SettingsViewController.swift in Sources */,
 				646F6177208E4CF200A974A2 /* AppDelegate.swift in Sources */,
 				644B71162099347E001AF4EE /* Networking.swift in Sources */,
